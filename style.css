@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+    background-color: #f8f5f1;
+    
+}
+.logoft{
+    height: 150px;
+    padding-left: -199px;
+}
+
+.lista{
+    justify-content: center;
+    gap: 80px;
+    font-size: large
+}
+
+a, p, h3, h5{
+    color: #684a34
+
+;
+}
+
+h1, h2{
+    color: #684a34;
+}
+.alinhamento{
+    text-align: center;
+}
+i{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #7c3908;
+    text-align: center;
+}
+strong{
+    color: #684a34;
+}
+.estilo{
+    padding: 30px 5%;
+}
+.estiloBeneficios{
+    text-align: center;
+    justify-content: center;
+}
+span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.pai{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    color: #684a34;
+}
+label{
+    color: #684a34;
+}
+button{
+    color: #ffffff;
+    background-color: #f8f5f1;
+}
+.enviar{
+    color: #ffffff;
+    background-color: #423023;
+    padding: 15px;
+    border-radius: 40px;
+    width: 100px;
+}
+.botao{
+    display: none;
+}
+.textinho{
+    text-align: justify;
+}
+
+@media screen and (max-width: 1023px){
+    .logoft{
+        display: none;
+    }
+    img{
+        align-items: center;
+    }
+    .estilo{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .pai{
+        flex-direction: column;
+    }
+    .botao{
+    display:block;
+    }
+
+}
